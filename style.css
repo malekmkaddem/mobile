@@ -35,11 +35,11 @@
 				}
 		
 @media screen and (max-width:480px) {
-.header { display: none; }
-body, .footer, .navigation {width:100%;}
+#header { display: none; }
+body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
 .column {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
 .navigation ul li {width: 100%; /* 33.33334375%; */}  
-#footer, #points, #main {width:100%;}
+#footer, #, #main {width:100%;}
 }
 
 @media screen and (min-width:481px) {
