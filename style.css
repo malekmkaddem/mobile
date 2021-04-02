@@ -34,6 +34,19 @@
 		
 				}
 		
+@media screen and (max-width:480px) {
+.header { display: none; }
+body, .footer, .navigation {width:100%;}
+.column {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
+.navigation ul li {width: 100%; /* 33.33334375%; */}  
+#footer, #points, #main {width:100%;}
+}
+
+@media screen and (min-width:481px) {
+body, .header, .navigation, .footer {
+  width: 100%;
+}
+
 	ul.navigation {
 		list-style:none;	/* this removes the bullets from list elements */
 		margin-top:20px;	/* giving the ul a top margin of 20px */
