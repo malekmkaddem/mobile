@@ -36,14 +36,20 @@
 		
 @media screen and (max-width:481px) {
     
-    #footer{
-        background: red;
+    #header{
+        display:inline-block;
     }
 }
 
-
-
-
+@media screen and (min-width:481px) {
+    body, .navigation, {
+        width: 100%;
+}
+    #header , #footer{
+        width: 100%;
+    }
+}
+    
 /*@media screen and (max-width:481px) {
 #header { display:inline-block; }
 body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
