@@ -125,17 +125,17 @@ body, .navigation  {
   width: 100%;
     overflow-x: hidden;
 }
-    #header , #footer {
+    header , footer {
       width: 100%;  
         overflow-x: hidden;
     }
 }
     
 @media screen and (max-width:481px) {
-#header { display:none; }
+header { display:none; }
 body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;
     overflow-x: hidden;}
 /*.navigation {margin: 10px 0;}*/
 .navigation ul li {width: 100%; }  
-#footer,  {width:100%;}
+footer,  {width:100%;}
 }
