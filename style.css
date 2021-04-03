@@ -116,7 +116,10 @@
 	.float-right img{
 		margin:0 0 100px 10px;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
 	}
-	
+	.clear{
+		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
+	}	
+
 @media screen and (min-width:420px) {
 body, .navigation  {
   width: 100%;
@@ -127,13 +130,9 @@ body, .navigation  {
 }
     
 @media screen and (max-width:481px) {
-#header { display:inline-block; }
+#header { display:block; }
 body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
 .navigation {margin: 10px 0;}
 .navigation ul li {width: 100%; }  
 #footer,  {width:100%;}
 }
-.clear{
-		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
-	}	
-
