@@ -123,11 +123,11 @@
 @media screen and (min-width:420px) {
 body, .navigation  {
   width: 100%;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
     #header , #footer {
       width: 100%;  
-        overflow-x: hidden !important;
+        overflow-x: hidden;
     }
 }
     
