@@ -119,9 +119,11 @@
 	.clear{
 		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
 	}	
+
 @media screen and (min-width:420px) {
-body, .header, .navigation, .footer {
+body, .navigation, .footer {
   width: 100%;
+}
 }
     
 @media screen and (max-width:481px) {
