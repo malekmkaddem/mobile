@@ -42,7 +42,7 @@
     body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
 }
 
-@media screen and (min-width:481px) {
+@media screen and (min-width:480px) {
     body, .navigation, {
         width: 100%;
 }
