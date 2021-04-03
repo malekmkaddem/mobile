@@ -46,7 +46,7 @@
     body, .navigation, {
         width: 100%;
 }
-    #header , #footer{
+    #header , #footer , #main{
         width: 100%;
     }
 }
