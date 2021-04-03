@@ -121,9 +121,12 @@
 	}	
 
 @media screen and (min-width:420px) {
-body, .navigation, .footer {
+body, .navigation  {
   width: 100%;
 }
+    #header , #footer {
+      width: 100%;  
+    }
 }
     
 @media screen and (max-width:481px) {
