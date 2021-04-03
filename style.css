@@ -130,9 +130,9 @@ body, .navigation  {
 }
     
 @media screen and (max-width:481px) {
-#header { display:inline-block; }
+#header { display:none; }
 body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
-.navigation {margin: 10px 0;}
+/*.navigation {margin: 10px 0;}*/
 .navigation ul li {width: 100%; }  
 #footer,  {width:100%;}
 }
