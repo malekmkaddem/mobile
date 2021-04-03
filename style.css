@@ -45,7 +45,7 @@
 #footer, #main {width:100%;}
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:480px) {
     body, .navigation, {
         width: 100%;
 }
