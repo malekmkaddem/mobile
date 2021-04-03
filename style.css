@@ -42,9 +42,9 @@ body, .header, .navigation, .footer {
 @media screen and (max-width:481px) {
 #header { display:none; }
 body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
-.navigation {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
+/*.navigation {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
 .navigation ul li {width: 100%; }  
-#footer, #, #main {width:100%;}
+#footer, #, #main {width:100%;}*/
 }
 
 
