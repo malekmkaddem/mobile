@@ -121,7 +121,7 @@
 	}	
 
 @media screen and (min-width:420px) {
-body, .navigation  {
+body, head , .navigation  {
   width: 100%;
 }
     #header , #footer {
