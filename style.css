@@ -137,15 +137,15 @@ body, .clear, .sidebar-left, .col-right, .navigation , .content {width:100%;}
 #footer,  {width:100%;}
 }*/
 
-@media screen and (max-width:481px) {
+/*@media screen and (max-width:481px) {
 #header { display:contents;
         width:100%;}
 body, .navigation , .clear, .sidebar-left, .content {width:100%;}
 .col-right {margin: 10px 0; border-bottom:1px dashed #7b96bc;}
-.navigation ul li a {width: 100%; /* 33.33334375%; */}  
+.navigation ul li a {width: 100%; /* 33.33334375%; */} /* 
 #footer{width:100%; }
-}
-
+} 
+*/
 @media screen and (min-width:480px) {
 body, .navigation {
   width: 100%;
