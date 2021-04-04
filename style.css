@@ -146,7 +146,7 @@ body, .navigation , .clear, .sidebar-left, .content {width:100%;}
 #footer{width:100%; }
 }
 
-@media screen and (min-width:481px) {
+@media screen and (min-width:420px) {
 body, .navigation {
   width: 100%;
 }
