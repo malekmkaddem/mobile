@@ -104,7 +104,26 @@
 		text-align:center;
 		width:900px;
 	}
-	.float-left{
+	
+
+@media screen and (max-width:480px) {
+    #header , #footer{ 
+        width: 100%;
+    }
+    body, .navigation, , .content , .sidebar-left , col-right{
+    width: 100%;
+}
+    
+@media screen and (min-width:481px) {
+#header { display:inline-block; }
+body, #header, .navigation, #footer, .content , .sidebar-left  {width:100%;
+    background-color: springgreen;}
+.navigation {margin: 10px 0;}
+.navigation ul li {width: 100%; }  
+#footer,  {width:100%;}
+}
+
+    .float-left{
 		float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
 		margin:0  10px 10px 0;
 	}
@@ -117,11 +136,3 @@
 	.clear{
 		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
 	}	
-
-@media screen and (max-width:480px) {
-body, #header, .navigation, #footer, .content , .sidebar-left {
-  width: 50%;
-    background-color: greenyellow;
-}
-    
-
