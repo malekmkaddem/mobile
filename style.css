@@ -124,11 +124,4 @@ body, #header, .navigation, #footer, .content , .sidebar-left {
     background-color: greenyellow;
 }
     
-@media screen and (min-width:480px) {
-#header { display:inline-block; }
-body, #header, .navigation, #footer, .content , .sidebar-left  {width:100%;
-    background-color: springgreen;}
-.navigation {margin: 10px 0;}
-.navigation ul li {width: 100%; }  
-#footer,  {width:100%;}
-}
+
