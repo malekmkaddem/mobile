@@ -96,43 +96,75 @@
 		text-transform:uppercase;	/* this makes all anchor classes with .list uppercase  */
 		font-size:11px;	/* this makes all anchor classes with .list applied 11px tall  */
 	}
-				
-	div#footer{
+		div#footer{
 		background-color:#c4d5d9;
 		margin:0 auto;
 		padding:15px;
 		text-align:center;
 		width:900px;
 	}
-	
 
-@media screen and (max-width:480px) {
-    #header , #footer{ 
-        width: 100%;
-    }
-    body, .navigation, , .content , .sidebar-left , col-right{
-    width: 100%;
-}
     
-@media screen and (min-width:481px) {
-#header { display:inline-block; }
-body, #header, .navigation, #footer, .content , .sidebar-left  {width:100%;
-    background-color: springgreen;}
-.navigation {margin: 10px 0;}
-.navigation ul li {width: 100%; }  
-#footer,  {width:100%;}
+@media screen and (max-width:420px){
+
+    body  {
+        margin: 0;
+        font-family: Arial , Helvetica, sans-serif;
+        background: #333;
+        color: #fff;
+        font-size: 3em;
+        line-height: 1.5;
+        text-align: center;
+    
+    
+}
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+        
+    }
+    #header , #footer{ 
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        line-height: 2  ;
+    }
+
+    div .sidebar-left{
+        margin: 0;
+        padding: 1em 0;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+        
+        
+    
+   
+    h1, h2,  {
+        font-size: 100%;
+        line-height: 1.5;
+        text-align:center;
+        
+
+    }
+    p{
+        font-size: 77%;
+        line-height: 1.5;
+        text-align:left;
+    
+    }
+    .list li a{
+   font-size: 100%;
+        
+    }
+    li:hover{
+        background: #aeeaea;
+        background-color: darkolivegreen;
+    }
 }
 
-    .float-left{
-		float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
-		margin:0  10px 10px 0;
-	}
-	.float-right{
-		float:right;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
-	}
-	.float-right img{
-		margin:0 0 10px 10px;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
-	}
-	.clear{
-		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
-	}	
+    
+
+    
