@@ -125,14 +125,21 @@
         height: auto;
         
     }
-    #header , #footer{ 
+    #header { 
         display: inline-block;
         width: 100%;
         height: auto;
         line-height: 2;
-        color: pink;
-        font-family: cursive;
+        
     }
+	#footer {
+	display: inline-block;
+        width: 100%;
+        height: auto;
+        line-height: 2;
+        color: blue ;
+        font-family: cursive;
+	}
     
 
     div.sidebar-left{
