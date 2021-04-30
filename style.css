@@ -105,7 +105,7 @@
 	}
 
     
-@media screen and (max-width:420px){
+@media screen and (max-width:480px) {
 
     body  {
         margin: 0;
@@ -115,7 +115,8 @@
         font-size: 3em;
         line-height: 1.5;
         text-align: center;
-    
+        
+        
     
 }
     img{
@@ -128,10 +129,13 @@
         display: inline-block;
         width: 100%;
         height: auto;
-        line-height: 2  ;
+        line-height: 2;
+        color: palevioletred;
+        font-family: fantasy;
     }
+    
 
-    div .sidebar-left{
+    div.sidebar-left{
         margin: 0;
         padding: 1em 0;
         display: block;
@@ -139,11 +143,14 @@
         height: auto;
     }
         
-        
+    div.col-right{
+        float: none;
+        display:inline-block;
+    }
     
    
     h1, h2,  {
-        font-size: 100%;
+        font-size:100%;
         line-height: 1.5;
         text-align:center;
         
@@ -152,7 +159,7 @@
     p{
         font-size: 77%;
         line-height: 1.5;
-        text-align:left;
+        text-align:center;
     
     }
     .list li a{
@@ -162,7 +169,10 @@
     li:hover{
         background: #aeeaea;
         background-color: darkolivegreen;
+        
     }
+    
+    
 }
 
     
