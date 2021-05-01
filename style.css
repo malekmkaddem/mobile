@@ -168,8 +168,11 @@ body, h1, h2, h3, p, img, ul, li{
         line-height: 2;
         color:palevioletred;
         font-family: cursive;
-        animation: move 5s;
+        
 	}
+    #footer:hover{
+        animation: move 4s;
+    }
     
 
     div.sidebar-left{
