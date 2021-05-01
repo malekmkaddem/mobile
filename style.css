@@ -1,4 +1,5 @@
-	body, h1, h2, h3, p, img, ul, li{
+
+body, h1, h2, h3, p, img, ul, li{
 		border:0; margin:0; padding:0;
 	}
 		/*the above is a very basic reset rule.  Every browser has a slightly different default for HTML tags.  By using this simple CSS reset, all the more glaring styles 
@@ -104,9 +105,22 @@
 		width:900px;
 	}
 
-    
+    .float-left{
+		float:left;	/* use this on an element (like an image) to make it float to the left of it's containing HTML element */
+		margin:0  10px 10px 0;
+	}
+	.float-right{
+		float:right;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
+	}
+	.float-right img{
+		margin:0 0 10px 10px;	/* use this on an element (like an image) to make it float to the right of it's containing HTML element */
+	}
+	.clear{
+		clear:both; /* this clears floats.  This would be used to cancel out a float's behavior on content below it.  */
+	}	
 
-@media screen and (max-width:480px) {
+ /* For mobile*/
+@media screen (orientation: landscape) , (max-width:480px) {
 
     body  {
         margin: 0;
@@ -185,82 +199,3 @@
     
 }
 
-@media only screen and (orientation: landscape) {
-      body  {
-        margin: 0;
-        font-family: Arial , Helvetica, sans-serif;
-        background: #333;
-        color: #fff;
-        font-size: 3em;
-        line-height: 1.5;
-        text-align: center;
-        
-        
-    
-}
-    img{
-        display: block;
-        width: 100%;
-        height: auto;
-        
-    }
-    #header { 
-        display: inline-block;
-        width: 100%;
-        height: auto;
-        line-height: 2;
-        font-family: cursive;
-        
-    }
-	#footer {
-	display: inline-block;
-        width: 100%;
-        height: auto;
-        line-height: 2;
-        color:palevioletred;
-        font-family: cursive;
-	}
-    
-
-    div.sidebar-left{
-        margin: 0;
-        padding: 1em 0;
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-        
-    div.col-right{
-        float: none;
-        display:inline-block;
-    }
-    
-   
-    h1, h2,  {
-        font-size:100%;
-        line-height: 1.5;
-        text-align:center;
-        
-        
-
-    }
-    p{
-        font-size: 77%;
-        line-height: 1.5;
-        text-align:center;
-    
-    }
-    .list li a{
-   font-size: 100%;
-        
-    }
-    li:hover{
-        background: #aeeaea;
-        background-color: darkolivegreen;
-        
-    }
-}
-
-    
-
-    
