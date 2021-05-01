@@ -122,6 +122,20 @@ body, h1, h2, h3, p, img, ul, li{
  /* For mobile*/
 @media screen (orientation: landscape) , (max-width:660px) {
 
+    
+    @keyframes move {
+        
+        from {
+            transform: rotate(180deg);
+            transform: rotate(-200deg)
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    
+    
+    
     body  {
         margin: 0;
         font-family: Arial , Helvetica, sans-serif;
@@ -140,7 +154,7 @@ body, h1, h2, h3, p, img, ul, li{
         
     }
     #header { 
-        display: inline-block;
+        display:inline-block;
         width: 100%;
         height: auto;
         line-height: 2;
@@ -154,6 +168,7 @@ body, h1, h2, h3, p, img, ul, li{
         line-height: 2;
         color:palevioletred;
         font-family: cursive;
+        animation: move 5s;
 	}
     
 
